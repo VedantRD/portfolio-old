@@ -1,0 +1,1 @@
+export default fontColor = rgb(189, 197, 223);

@@ -6,7 +6,10 @@
 
 .navbar a {
   font-size: 1.5rem;
-  text-transform: capitalize;
+}
+
+.nav-item>.active {
+  border-bottom: 3px solid #565387;
 }
 
 .nav-item {
@@ -14,7 +17,7 @@
   padding-right: 10px;
 }
 
-.menu_active {
+/* .menu_active {
   font-weight: bold;
   border-bottom: 3px solid #565387;
-}
+} */

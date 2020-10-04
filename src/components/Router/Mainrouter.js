@@ -16,19 +16,19 @@ const Mainrouter = () => {
         //     <Route path='/skills' component={Skills}></Route>
         // </Switch>
         <>
-            <div name='home'>
+            <div id='home'>
                 <Home />
             </div>
-            <div name='about'>
+            <div id='about'>
                 <About />
             </div>
-            <div name='contact'>
+            <div id='contact'>
                 <Contact />
             </div>
-            <div name='projects'>
+            <div id='projects'>
                 <Projects />
             </div>
-            <div name='skills'>
+            <div id='skills'>
                 <Skills />
             </div>
         </>
