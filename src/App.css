@@ -1,14 +1,29 @@
+@font-face {
+    font-family: cairo-regular;
+    src: url(./fonts/Cairo-Regular.ttf);
+}
+
 .App-Container {
     height: 100vh;
     width: 100%;
+    font-family: cairo-regular;
 }
 
 .content-wrapper {
     background-color: rgba(0, 0, 20, 0.900);
     width: 100%;
-    color: rgb(223, 219, 219);
+    color: rgb(189, 197, 223);
     padding-right: 15%;
     padding-left: 15%;
+}
+
+.content-wrapper li:before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    margin-right: 0.3em;
+    width: 1.3em;
 }
 
 @media only screen and (max-width: 600px) {

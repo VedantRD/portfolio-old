@@ -1,21 +1,23 @@
 import React from 'react'
 import '../../styles/project.css'
-import { Header1 } from '../../styledComponents/Headers'
+import { Header2 } from '../../styledComponents/Headers'
+import { Li, Ul } from '../../styledComponents/Descriptions'
+import { Container } from '../../styledComponents/Containers';
 
 const Projects = () => {
     return (
-        <div className='projects-container'>
+        <Container>
             <div className='row h-100 align-items-center'>
                 <div>
-                    <Header1>My Projects</Header1>
-                    <ul>
-                        <li>Social Networking Site</li>
-                        <li>Blog Site</li>
-                        <li>E-commerce Site</li>
-                    </ul>
+                    <Header2>My Projects</Header2>
+                    <Ul>
+                        <Li>Social Networking Site</Li>
+                        <Li>Blog Site</Li>
+                        <Li>E-commerce Site</Li>
+                    </Ul>
                 </div>
             </div>
-        </div>
+        </Container>
     )
 }
 

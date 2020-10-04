@@ -1,9 +1,5 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    height: 92vh;
+    height: 100vh;
 `;
-
-// export const CenterV = styled.div`
-//     height:100%;
-// `;

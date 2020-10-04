@@ -5,13 +5,16 @@
 }
 
 .navbar a {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-transform: capitalize;
-  height: 100%;
+}
+
+.nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .menu_active {
   font-weight: bold;
-  border-bottom: 1px solid #565387;
-  height: 100%;
+  border-bottom: 3px solid #565387;
 }
