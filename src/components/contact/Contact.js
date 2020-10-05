@@ -7,16 +7,20 @@ import { Paragraph } from '../../styledComponents/Descriptions'
 const Contact = () => {
     return (
         <Container>
-            <div className='h-100 row no-gutters align-items-center'>
-                <div>
-                    <Header2>Reach Me At</Header2>
-                    <Paragraph>
-                        <div className='row no-gutters justify-content-between'>
-                            <span>Icon</span>
-                            <span>(+91)9422965894</span>
-                        </div>
-                    </Paragraph>
-                </div>
+            <div className='w-100'>
+                <Header2>Reach Me At</Header2>
+                <Paragraph>
+                    <i className='fa fa-phone mr-4'></i>
+                    <span>(+91) 9422965894</span>
+                </Paragraph>
+                <Paragraph>
+                    <i className='fa fa-git mr-4'></i>
+                    <span>https://github.com/VedantRD</span>
+                </Paragraph>
+                <Paragraph>
+                    <i className='fa fa-google mr-4'></i>
+                    <span>vedant.debadwar@gmail.com</span>
+                </Paragraph>
             </div>
         </Container>
     )

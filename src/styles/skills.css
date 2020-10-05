@@ -1,5 +1,8 @@
-.skills-container {
-    height: 92vh;
-    align-items: center;
-    padding-top: 10%;
+.skills-container li:before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    margin-right: 0.3em;
+    width: 1.3em;
 }

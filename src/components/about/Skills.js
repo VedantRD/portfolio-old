@@ -1,14 +1,14 @@
 import React from 'react'
 import '../../styles/skills.css'
-import { Header2, Header4 } from '../../styledComponents/Headers';
+import { Header3, Header4 } from '../../styledComponents/Headers';
 import { Li, Ul } from '../../styledComponents/Descriptions';
 
 const Skills = () => {
     return (
-        <div className='skills-container'>
-            <Header2 className='mb-5'>My Skills</Header2>
+        <div className='w-100'>
+            <Header3 className='mb-5'>My Skills</Header3>
             <div className='row no-gutters'>
-                <div className='col-3'>
+                <div className='col-6 col-md-3'>
                     <Header4>Languages</Header4>
                     <Ul>
                         <Li>C</Li>
@@ -21,7 +21,7 @@ const Skills = () => {
                         <Li>PHP</Li>
                     </Ul>
                 </div>
-                <div className='col-3'>
+                <div className='col-6 col-md-3'>
                     <Header4>Frameworks</Header4>
                     <Ul>
                         <Li>React</Li>
@@ -33,7 +33,7 @@ const Skills = () => {
                         <Li>Bootstrap</Li>
                     </Ul>
                 </div>
-                <div className='col-3'>
+                <div className='col-6 col-md-3'>
                     <Header4>Database</Header4>
                     <Ul>
                         <Li>Mongo DB</Li>
@@ -47,7 +47,7 @@ const Skills = () => {
                         <Li>Native-Base</Li>
                     </Ul>
                 </div>
-                <div className='col-3'>
+                <div className='col-6 col-md-3'>
                     <Header4>Others</Header4>
                     <Ul>
                         <Li>Blender</Li>

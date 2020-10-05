@@ -3,6 +3,11 @@
     src: url(./fonts/Cairo-Regular.ttf);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .App-Container {
     height: 100vh;
     width: 100%;
@@ -15,15 +20,6 @@
     width: 100%;
     padding-right: 15%;
     padding-left: 15%;
-}
-
-.content-wrapper li:before {
-    content: "\f00c";
-    font-family: FontAwesome;
-    display: inline-block;
-    margin-left: -1.3em;
-    margin-right: 0.3em;
-    width: 1.3em;
 }
 
 @media only screen and (max-width: 600px) {

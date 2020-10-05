@@ -50,19 +50,6 @@ const Navbar = () => {
                     <li className="nav-item">
                         <Link
                             activeClass="active"
-                            to="contact"
-                            spy={true}
-                            smooth='easeInOutQuart'
-                            offset={-70}
-                            duration={900}
-                            delay={50}
-                        >
-                            <i className='fa fa-envelope'></i> Contact
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link
-                            activeClass="active"
                             to="projects"
                             spy={true}
                             smooth='easeInOutQuart'
@@ -76,14 +63,14 @@ const Navbar = () => {
                     <li className="nav-item">
                         <Link
                             activeClass="active"
-                            to="skills"
+                            to="contact"
                             spy={true}
                             smooth='easeInOutQuart'
                             offset={-70}
                             duration={900}
                             delay={50}
                         >
-                            <i className='fa fa-wrench'></i> Skills
+                            <i className='fa fa-envelope'></i> Contact
                         </Link>
                     </li>
                 </ul>
