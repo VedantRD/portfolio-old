@@ -3,18 +3,16 @@ import './App.css';
 import Navbar from './components/navbar/Navbar';
 import Mainrouter from './components/Router/Mainrouter';
 import { BrowserRouter } from 'react-router-dom';
-// import UseHideOnScroll from './components/UseHideOnScroll';
+import Footer from './utility/Footer';
 
 function App() {
-
-  // let showNavbar = !UseHideOnScroll()
-
   return (
     <BrowserRouter>
       <div className='App-Container'>
-        <Navbar></Navbar>
+        <Navbar />
         <div className='content-wrapper'>
           <Mainrouter />
+          <Footer />
         </div>
       </div>
     </BrowserRouter>

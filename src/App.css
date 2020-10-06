@@ -3,13 +3,12 @@
     src: url(./fonts/Cairo-Regular.ttf);
 }
 
-* {
+#root {
     margin: 0;
     padding: 0;
 }
 
 .App-Container {
-    height: 100vh;
     width: 100%;
     font-family: cairo-regular;
     color: rgb(189, 197, 223);
@@ -27,4 +26,8 @@
         padding-right: 7%;
         padding-left: 7%;
     }
+}
+
+.githubicon:hover {
+    fill: blue;
 }

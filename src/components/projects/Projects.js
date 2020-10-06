@@ -1,18 +1,18 @@
 import React from 'react'
 import '../../styles/project.css'
-import { Header2 } from '../../styledComponents/Headers'
+import { Header3 } from '../../styledComponents/Headers'
 import { Li, Ul } from '../../styledComponents/Descriptions'
 import { Container } from '../../styledComponents/Containers';
 
 const Projects = () => {
     return (
         <Container>
-            <div>
-                <Header2>My Projects</Header2>
+            <div className='w-100'>
+                <Header3 className='mb-5'>My Projects</Header3>
                 <Ul>
-                    <Li>Social Networking Site</Li>
+                    <Li>VD Insta</Li>
                     <Li>Blog Site</Li>
-                    <Li>E-commerce Site</Li>
+                    <Li>E-Bazaar</Li>
                 </Ul>
             </div>
         </Container>

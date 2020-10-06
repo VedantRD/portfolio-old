@@ -1,5 +1,3 @@
 .contact-container {
-    height: 92vh;
-    align-items: center;
-    padding-top: 10%;
+    min-height: 75vh;
 }
