@@ -11,11 +11,11 @@
 .App-Container {
     width: 100%;
     font-family: cairo-regular;
-    color: rgb(189, 197, 223);
 }
 
 .content-wrapper {
-    background-color: rgba(0, 0, 20, 0.900);
+    /* background-color: rgba(0, 0, 20, 0.900); */
+    background-color: #202121;
     width: 100%;
     padding-right: 15%;
     padding-left: 15%;

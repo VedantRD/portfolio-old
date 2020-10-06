@@ -1,7 +1,6 @@
 import React from 'react'
 import '../../styles/project.css'
-import { Header3, Header4 } from '../../styledComponents/Headers'
-import { Li, Paragraph, Ul } from '../../styledComponents/Descriptions'
+import { Header3 } from '../../styledComponents/Headers'
 import { Container } from '../../styledComponents/Containers';
 import Info from './Info';
 

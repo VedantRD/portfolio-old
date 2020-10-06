@@ -1,16 +1,9 @@
 import React from 'react'
 import './navbar.css'
 import { Link } from 'react-scroll'
+import { NavLi } from '../../styledComponents/Descriptions'
 
 const Navbar = () => {
-
-    // const scrollTo = (section) => {
-    //     scroller.scrollTo(section, {
-    //         duration: 900,
-    //         delay: 50,
-    //         smooth: 'easeInOutQuart',
-    //     });
-    // }
 
     return (
         <nav className="navbar navbar-expand-lg fixed-top">
@@ -20,7 +13,7 @@ const Navbar = () => {
 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto mr-auto">
-                    <li className="nav-item">
+                    <NavLi className="nav-item">
                         <Link
                             activeClass="active"
                             to="home"
@@ -32,8 +25,8 @@ const Navbar = () => {
                         >
                             <i className='fa fa-home'></i> Home
                         </Link>
-                    </li>
-                    <li className="nav-item">
+                    </NavLi>
+                    <NavLi className="nav-item">
                         <Link
                             activeClass="active"
                             to="about"
@@ -45,8 +38,8 @@ const Navbar = () => {
                         >
                             <i className='fa fa-user'></i> About
                         </Link>
-                    </li>
-                    <li className="nav-item">
+                    </NavLi>
+                    <NavLi className="nav-item">
                         <Link
                             activeClass="active"
                             to="projects"
@@ -58,8 +51,8 @@ const Navbar = () => {
                         >
                             <i className='fa fa-cog'></i> Projects
                         </Link>
-                    </li>
-                    <li className="nav-item">
+                    </NavLi>
+                    <NavLi className="nav-item">
                         <Link
                             activeClass="active"
                             to="contact"
@@ -71,7 +64,7 @@ const Navbar = () => {
                         >
                             <i className='fa fa-envelope'></i> Contact
                         </Link>
-                    </li>
+                    </NavLi>
                 </ul>
             </div>
         </nav>
