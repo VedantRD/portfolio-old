@@ -6,7 +6,10 @@ import { Li, Ul } from '../../styledComponents/Descriptions';
 const Skills = () => {
     return (
         <div className='w-100'>
-            <Header3 className='mb-5'>My Skills</Header3>
+            <div className='row no-gutters'>
+                <Header4 className='mb-5 mr-4'>My Skills</Header4>
+                <hr className='w-50 ml-0 mb-5' style={{ backgroundColor: '#fff' }}></hr>
+            </div>
             <div className='row no-gutters'>
                 <div className='col-6 col-md-3'>
                     <Header4>Languages</Header4>

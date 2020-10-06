@@ -1,19 +1,17 @@
 import React from 'react'
 import '../../styles/project.css'
-import { Header3 } from '../../styledComponents/Headers'
-import { Li, Ul } from '../../styledComponents/Descriptions'
+import { Header3, Header4 } from '../../styledComponents/Headers'
+import { Li, Paragraph, Ul } from '../../styledComponents/Descriptions'
 import { Container } from '../../styledComponents/Containers';
+import Info from './Info';
 
 const Projects = () => {
     return (
         <Container>
-            <div className='w-100'>
-                <Header3 className='mb-5'>My Projects</Header3>
-                <Ul>
-                    <Li>VD Insta</Li>
-                    <Li>Blog Site</Li>
-                    <Li>E-Bazaar</Li>
-                </Ul>
+            <div className='w-100 pt-5 mt-5'>
+                <Header3 className='mb-3'>My Projects</Header3>
+                <hr className='w-75 ml-0 mb-5' style={{ backgroundColor: '#fff' }}></hr>
+                <Info />
             </div>
         </Container>
     )

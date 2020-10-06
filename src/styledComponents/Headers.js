@@ -16,6 +16,11 @@ export const Header3 = styled.h1`
 `;
 
 export const Header4 = styled.h1`
+    font-size: 2rem;
+    font-weight:bold
+`;
+
+export const Header5 = styled.h1`
     font-size: 1.5rem;
     font-weight:bold
 `;

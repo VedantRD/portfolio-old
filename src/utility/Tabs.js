@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Text } from '../styledComponents/Descriptions';
 import './Tabs.css'
 
 export class Tabs extends Component {
@@ -35,7 +36,9 @@ export const TabButtons = ({ buttons, changeTab, activeTab }) => {
     return (
         <div className="tab-buttons">
             {buttons.map((button, ind) => {
-                return <button className={button === activeTab ? 'active' : ''} onClick={() => changeTab(button)} key={ind}>{button}</button>
+                return <button className={button === activeTab ? 'active' : ''} onClick={() => changeTab(button)} key={ind}>
+                    <Text className='font-weight-bold'>{button}</Text>
+                </button>
             })}
         </div>
     )
