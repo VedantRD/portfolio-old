@@ -75,7 +75,7 @@ const Navbar = () => {
 
         // -----------------------------------------------
 
-        <div class="nav fixed-top">
+        <div className="nav fixed-top">
             <ul>
                 <NavLi>
                     <Link
@@ -104,7 +104,7 @@ const Navbar = () => {
                     </Link>
                 </NavLi>
                 {/* <NavLi> */}
-                <div className='d-inline-flex logo mt-2' >
+                <div className='d-inline-flex logo mt-2 text-center justify-content-center'>
                     <Logo>
                         <Text>V</Text>
                     </Logo>
@@ -120,7 +120,7 @@ const Navbar = () => {
                         duration={900}
                         delay={50}
                     >
-                        Projects
+                        Work
                     </Link>
                 </NavLi>
                 <NavLi className="nav-item">

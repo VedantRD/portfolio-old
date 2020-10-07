@@ -6,7 +6,7 @@ export const Header1 = styled.h1`
     font-weight:bold;
     color:${secondaryColor};
     @media (max-width: 600px) {
-        font-size:3.5rem
+        font-size:3.25rem
     }
 `;
 
