@@ -1,6 +1,6 @@
 module.exports = {
-    primaryColor: '#358CC6',
+    primaryColor: '#1C7DBD',
     secondaryColor: '#EAECEE',
     faintColor: '#B6B7B8',
-    bgColor: '#424344',
+    bgColor: 'rgb(34, 38, 41)',
 }

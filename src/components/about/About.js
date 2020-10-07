@@ -10,7 +10,7 @@ import { Container } from '../../styledComponents/Containers';
 const About = () => {
     return (
         <Container>
-            <div className='w-100'>
+            <div className='w-100 pt-5'>
                 <Header3 className='mb-3'>About Me</Header3>
                 <hr className='w-75 ml-0 mb-5' style={{ backgroundColor: '#fff' }}></hr>
                 <div className='row no-gutters align-items-center'>

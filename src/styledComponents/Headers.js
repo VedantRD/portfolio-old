@@ -30,3 +30,9 @@ export const Header5 = styled.h1`
     font-weight:bold;
     color:${primaryColor};
 `;
+
+export const Header6 = styled.h1`
+    font-size: 1.25rem;
+    font-weight:bold;
+    color:${primaryColor};
+`;

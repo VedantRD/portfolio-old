@@ -14,8 +14,6 @@
 }
 
 .content-wrapper {
-    /* background-color: rgba(0, 0, 20, 0.900); */
-    background-color: #202121;
     width: 100%;
     padding-right: 15%;
     padding-left: 15%;
@@ -26,8 +24,4 @@
         padding-right: 7%;
         padding-left: 7%;
     }
-}
-
-.githubicon:hover {
-    fill: blue;
 }

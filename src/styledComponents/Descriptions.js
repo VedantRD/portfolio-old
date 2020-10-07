@@ -19,7 +19,7 @@ export const Ul = styled.ul`
 `;
 
 export const Li = styled.li`
-    font-size: 1.35rem;
+    font-size: 1.20rem;
     list-style-type:none;
     color:${secondaryColor};
 `;

@@ -28,9 +28,9 @@ const Info = () => {
             </div>
 
             {/* Farmer Solution */}
-            <Header5 className='mb-3 mt-5 text-right'>2. Farmer Solutions</Header5>
+            <Header5 className='mb-3 mt-5 text-md-right'>2. Farmer Solutions</Header5>
             {/* <hr className='w-75 mr-0 mb-5' style={{ backgroundColor: '#fff' }}></hr> */}
-            <div className='row no-gutters align-items-center pb-3'>
+            <div className='row no-gutters align-items-center pb-3 rev-col'>
                 <div className='col-12 col-md-6 pr-5'>
                     <Paragraph>
                         Android App for farmers
