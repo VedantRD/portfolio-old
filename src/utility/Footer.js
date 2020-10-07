@@ -10,12 +10,12 @@ const Footer = () => {
                 </a>
             </div>
             <div className='col-3 col-md-2 justify-content-center align-self-end text-center'>
-                <a href='https://github.com/VedantRD' target="_blank" rel="noopener noreferrer" >
+                <a href='https://www.linkedin.com/in/vedant-debadwar-801264178/' target="_blank" rel="noopener noreferrer" >
                     <i className='fa fa-2x fa-linkedin-square'></i>
                 </a>
             </div>
             <div className='col-3 col-md-2 justify-content-center align-self-end text-center'>
-                <a href='https://github.com/VedantRD' target="_blank" rel="noopener noreferrer">
+                <a href='https://www.instagram.com/vedant_rd/' target="_blank" rel="noopener noreferrer">
                     <i className='fa fa-2x fa-instagram'></i>
                 </a>
             </div>

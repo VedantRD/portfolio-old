@@ -16,7 +16,7 @@ const Contact = () => {
                         <span>(+91) 9422965894</span>
                     </Paragraph>
                     <Paragraph>
-                        <i className='fa fa-google mr-3 mr-md-4 mb-5' style={{ color: primaryColor }}></i>
+                        <i className='fa fa-envelope mr-3 mr-md-4 mb-5' style={{ color: primaryColor }}></i>
                         <span>vedant.debadwar@gmail.com</span>
                     </Paragraph>
                 </div>

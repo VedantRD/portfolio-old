@@ -4,7 +4,7 @@ import { Header5 } from '../../styledComponents/Headers'
 
 const Info = () => {
     return (
-        <div>
+        <div className='info'>
 
             {/* VD Insta */}
             <Header5 className='mb-3'>1. VD Insta</Header5>
@@ -18,11 +18,16 @@ const Info = () => {
                         Instagram Clone.
                     </Paragraph>
                     <Paragraph>
-                        It is social networking site developed using MERN stack. It is currently hosted on Heroku. Created its android application using React
+                        It is social networking site developed using MERN stack. It is currently hosted on Heroku.
+                    </Paragraph>
+                    <Paragraph>
+                        Created its android application using React
                         Native.
                     </Paragraph>
                     <Paragraph>
-                        Link - https://vd-insta.herokuapp.com/
+                        <a href='https://vd-insta.herokuapp.com/' target="_blank" rel="noopener noreferrer">
+                            <i className='fa fa-external-link'></i>
+                        </a>
                     </Paragraph>
                 </div>
             </div>
@@ -33,14 +38,13 @@ const Info = () => {
             <div className='row no-gutters align-items-center pb-3 rev-col'>
                 <div className='col-12 col-md-6 pr-5'>
                     <Paragraph>
-                        Android App for farmers
+                        Android App
                     </Paragraph>
                     <Paragraph>
-                        It is social networking site developed using MERN stack. It is currently hosted on Heroku. Created its android application using React
-                        Native.
+                        Android Application developed during SIH 2020 using React Native.
                     </Paragraph>
                     <Paragraph>
-                        Link - https://vd-insta.herokuapp.com/
+                        It is portal for farmers to sell their goods directly to the market. Farmers can find and book the warehouses to store their produce.
                     </Paragraph>
                 </div>
                 <div className='col-12 col-md-6'>
@@ -60,11 +64,16 @@ const Info = () => {
                         Blog Site
                     </Paragraph>
                     <Paragraph>
-                        It is blogging site developed using MERN stack. It is currently hosted on Heroku. Created its android application using React
-                        Native.
-                        </Paragraph>
+                        It is blogging site developed using MERN stack. Currently hosted on Heroku.
+                    </Paragraph>
                     <Paragraph>
-                        Link - https://vd-insta.herokuapp.com/
+                        Created its android application using React
+                        Native.
+                    </Paragraph>
+                    <Paragraph>
+                        <a href='https://vd-insta.herokuapp.com/' target="_blank" rel="noopener noreferrer">
+                            <i className='fa fa-external-link'></i>
+                        </a>
                     </Paragraph>
                 </div>
             </div>

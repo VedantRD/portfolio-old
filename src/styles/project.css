@@ -4,6 +4,14 @@
     /* justify-content: center; */
 }
 
+.info a {
+    color: inherit;
+}
+
+.info a:hover {
+    color: #1C7DBD;
+}
+
 @media only screen and (max-width: 600px) {
     .rev-col {
         display: flex;
