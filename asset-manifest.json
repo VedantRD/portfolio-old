@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c7c742a0.chunk.css",
+    "main.js": "/portfolio/static/js/main.5cd19c53.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5cd19c53.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/js/2.c5073eb6.chunk.js": "/portfolio/static/js/2.c5073eb6.chunk.js",
+    "static/js/2.c5073eb6.chunk.js.map": "/portfolio/static/js/2.c5073eb6.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.5f5b337a4e2e6f29fc21e3381897276a.js": "/portfolio/precache-manifest.5f5b337a4e2e6f29fc21e3381897276a.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.c7c742a0.chunk.css.map": "/portfolio/static/css/main.c7c742a0.chunk.css.map",
+    "static/js/2.c5073eb6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c5073eb6.chunk.js.LICENSE.txt",
+    "static/media/navbar.css": "/portfolio/static/media/Alice-Regular.c91fff83.ttf",
+    "static/media/App.css": "/portfolio/static/media/Cairo-Regular.81b37df3.ttf",
+    "static/media/resume2.jpg": "/portfolio/static/media/resume2.be1fc370.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.209c2d7e.js",
+    "static/js/2.c5073eb6.chunk.js",
+    "static/css/main.c7c742a0.chunk.css",
+    "static/js/main.5cd19c53.chunk.js"
+  ]
+}
