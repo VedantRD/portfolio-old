@@ -7,7 +7,7 @@ const Skills = () => {
     return (
         <div className='w-100 skills-container'>
             {/* <Header4 className='mb-5'>Skills</Header4> */}
-            <div className='row no-gutters'>
+            <div className='row'>
                 <div className='col-4 col-md-4'>
                     <Header6>Languages</Header6>
                     <Ul>
@@ -29,7 +29,6 @@ const Skills = () => {
                         <Li>Node JS</Li>
                         <Li>Express JS</Li>
                         <Li>Bootstrap</Li>
-                        <Li>Blender</Li>
                     </Ul>
                 </div>
                 <div className='col-4 col-md-4'>
