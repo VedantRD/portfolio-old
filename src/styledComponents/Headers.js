@@ -5,24 +5,36 @@ export const Header1 = styled.h1`
     font-size: 4rem;
     font-weight:bold;
     color:${secondaryColor};
+    @media (max-width: 600px) {
+        font-size:3.5rem
+    }
 `;
 
 export const Header2 = styled.h1`
     font-size: 3rem;
     font-weight:bold;
     color:${secondaryColor};
+    @media (max-width: 600px) {
+        font-size:2.75rem
+    }
 `;
 
 export const Header3 = styled.h1`
     font-size: 2.5rem;
     font-weight:bold;
     color:${primaryColor};
+    @media (max-width: 600px) {
+        font-size:2.45rem
+    }
 `;
 
 export const Header4 = styled.h1`
     font-size: 2rem;
     font-weight:bold;
     color:${primaryColor};
+    @media (max-width: 600px) {
+        font-size:1.85rem
+    }
 `;
 
 export const Header5 = styled.h1`
