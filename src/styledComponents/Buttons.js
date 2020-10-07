@@ -14,7 +14,7 @@ export const PrimaryButton = styled.button`
 `;
 
 export const Logo = styled.span`
-    font-size: 1.8rem;
+    font-weight:bold;
     text-align: center;
     display:flex;
     font-family:alice-regular;

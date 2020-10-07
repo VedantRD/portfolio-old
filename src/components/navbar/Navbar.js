@@ -1,7 +1,7 @@
 import React from 'react'
 import './navbar.css'
 import { Link } from 'react-scroll'
-import { NavLi } from '../../styledComponents/Descriptions'
+import { NavLi, Text } from '../../styledComponents/Descriptions'
 import { Logo } from '../../styledComponents/Buttons'
 
 const Navbar = () => {
@@ -86,7 +86,6 @@ const Navbar = () => {
                         offset={-70}
                         duration={900}
                         delay={50}
-                        className='pt-1'
                     >
                         Home
                     </Link>
@@ -100,15 +99,14 @@ const Navbar = () => {
                         offset={-70}
                         duration={900}
                         delay={50}
-                        className='pt-1'
                     >
                         About
                     </Link>
                 </NavLi>
                 {/* <NavLi> */}
-                <div className=' d-inline-flex logo' style={{ marginTop: 8 }}>
+                <div className=' d-inline-flex logo' >
                     <Logo>
-                        V
+                        <Text>V</Text>
                     </Logo>
                 </div>
                 {/* </NavLi> */}
@@ -121,7 +119,6 @@ const Navbar = () => {
                         offset={-70}
                         duration={900}
                         delay={50}
-                        className='pt-1'
                     >
                         Projects
                     </Link>
@@ -135,7 +132,6 @@ const Navbar = () => {
                         offset={-70}
                         duration={900}
                         delay={50}
-                        className='pt-1'
                     >
                         Contact
                     </Link>
