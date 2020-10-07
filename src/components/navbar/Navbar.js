@@ -104,7 +104,7 @@ const Navbar = () => {
                     </Link>
                 </NavLi>
                 {/* <NavLi> */}
-                <div className=' d-inline-flex logo' >
+                <div className='d-inline-flex logo mt-2' >
                     <Logo>
                         <Text>V</Text>
                     </Logo>
