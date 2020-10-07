@@ -7,7 +7,7 @@ const Info = () => {
         <div>
 
             {/* VD Insta */}
-            <Header5 className='mb-3 mt-5'>1. VD Insta</Header5>
+            <Header5 className='mb-3'>1. VD Insta</Header5>
             {/* <hr className='w-75 mr-0 mb-5' style={{ backgroundColor: '#fff' }}></hr> */}
             <div className='row no-gutters align-items-center pb-3'>
                 <div className='col-12 col-md-6'>

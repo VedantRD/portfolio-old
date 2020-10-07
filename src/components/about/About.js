@@ -12,7 +12,7 @@ const About = () => {
         <Container>
             <div className='w-100 pt-5'>
                 <Header3 className='mb-3'>About Me</Header3>
-                <hr className='w-75 ml-0 mb-5' style={{ backgroundColor: '#fff' }}></hr>
+                <hr className='w-75 ml-0 mb-3 mb-md-5' style={{ backgroundColor: '#fff' }}></hr>
                 <div className='row no-gutters align-items-center'>
                     <div className='col-12 col-md-9 pr-5'>
                         <Paragraph>I'm Vedant Rajesh Debadwar.</Paragraph>

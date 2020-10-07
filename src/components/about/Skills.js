@@ -6,7 +6,7 @@ import { Li, Ul } from '../../styledComponents/Descriptions';
 const Skills = () => {
     return (
         <div className='w-100 skills-container'>
-            <Header4 className='mb-5'>Skills</Header4>
+            {/* <Header4 className='mb-5'>Skills</Header4> */}
             <div className='row no-gutters'>
                 <div className='col-4 col-md-4'>
                     <Header6>Languages</Header6>

@@ -45,7 +45,7 @@
 
 .nav a:hover {
   color: #fff;
-  background-color: red;
+  border-bottom: 3px solid #1C7DBD;
 }
 
 .nav>.active {
@@ -60,5 +60,8 @@
   .logo {
     padding-left: 5px;
     padding-right: 5px;
+  }
+  .nav a:hover {
+    color: #fff;
   }
 }
