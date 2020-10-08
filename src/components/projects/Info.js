@@ -69,8 +69,7 @@ const Info = () => {
                         It is blogging site developed using MERN stack. Currently hosted on Heroku.
                     </Paragraph>
                     <Paragraph>
-                        Created its android application using React
-                        Native.
+                        User can Create,Share his blogs. People can comment,like blogs, can follow each other.
                     </Paragraph>
                     <Paragraph>
                         <a href='https://vd-insta.herokuapp.com/' target="_blank" rel="noopener noreferrer">
@@ -89,10 +88,16 @@ const Info = () => {
                         E-Commerce Website
                     </Paragraph>
                     <Paragraph>
-                        Android Application developed during SIH 2020 using React Native.
+                        Created using React JS and Firebase.
                     </Paragraph>
                     <Paragraph>
-                        It is portal for farmers to sell their goods directly to the market. Farmers can find and book the warehouses to store their produce.
+                        User can filter products,add them to cart,buy them.
+                        Seller can change products price,set discount etc.
+                    </Paragraph>
+                    <Paragraph>
+                        <a href='https://vd-insta.herokuapp.com/' target="_blank" rel="noopener noreferrer">
+                            <i className='fa fa-external-link'></i>
+                        </a>
                     </Paragraph>
                 </div>
                 <div className='col-12 col-md-7'>
