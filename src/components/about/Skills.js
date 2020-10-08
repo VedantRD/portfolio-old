@@ -1,14 +1,14 @@
 import React from 'react'
 import '../../styles/skills.css'
-import { Header4, Header5, Header6 } from '../../styledComponents/Headers';
+import { Header6 } from '../../styledComponents/Headers';
 import { Li, Ul } from '../../styledComponents/Descriptions';
 
 const Skills = () => {
     return (
         <div className='w-100 skills-container'>
             {/* <Header4 className='mb-5'>Skills</Header4> */}
-            <div className='row'>
-                <div className='col-4 col-md-4'>
+            <div className='row no-gutters'>
+                <div className='col-4 col-md-4 pr-2'>
                     <Header6>Languages</Header6>
                     <Ul>
                         <Li>Python</Li>
@@ -21,7 +21,7 @@ const Skills = () => {
                         <Li>PHP</Li>
                     </Ul>
                 </div>
-                <div className='col-4 col-md-4'>
+                <div className='col-4 col-md-4 pr-2'>
                     <Header6>Frameworks</Header6>
                     <Ul>
                         <Li>React</Li>

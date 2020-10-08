@@ -37,7 +37,7 @@ export const TabButtons = ({ buttons, changeTab, activeTab }) => {
         <div className="tab-buttons">
             {buttons.map((button, ind) => {
                 return <button className={button === activeTab ? 'active' : ''} onClick={() => changeTab(button)} key={ind}>
-                    <Text className='font-weight-bold'>{button}</Text>
+                    <Text>{button}</Text>
                 </button>
             })}
         </div>

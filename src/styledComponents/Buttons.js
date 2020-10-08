@@ -11,6 +11,10 @@ export const PrimaryButton = styled.button`
     padding-right:25px;
     padding-top:7.5px;
     padding-bottom:7.5px;
+    &:hover {
+        background-color:${secondaryColor};
+        color:${primaryColor}
+    }
 `;
 
 export const Logo = styled.span`

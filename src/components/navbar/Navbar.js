@@ -103,13 +103,11 @@ const Navbar = () => {
                         About
                     </Link>
                 </NavLi>
-                {/* <NavLi> */}
                 <div className='d-inline-flex logo mt-2 text-center justify-content-center'>
                     <Logo>
-                        <Text>V</Text>
+                        <Text style={{ paddingRight: 1 }}>V</Text>
                     </Logo>
                 </div>
-                {/* </NavLi> */}
                 <NavLi>
                     <Link
                         activeClass="active"

@@ -20,7 +20,7 @@ const Home = () => {
                         href='https://www.canva.com/design/DAEEgEs9okI/pm4ap3cDsEu4H7ccOy2GCA/edit'
                         target="_blank"
                         rel="noopener noreferrer"
-                        style={{ color: 'inherit' }}
+                        className='resume-link'
                     >
                         Resume
                     </a>
